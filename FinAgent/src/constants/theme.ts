@@ -1,0 +1,118 @@
+export const theme = {
+  // colors: { //og
+  //   background: '#0b0f19',
+  //   surface: '#0f1724',
+  //   primary: '#5B2DD3',
+  //   primaryVariant: '#14B8A6',
+  //   textPrimary: '#E6EEF6',
+  //   textSecondary: '#9AA6B2',
+  //   success: '#10B981',
+  //   danger: '#EF4444',
+  //   warning: '#F59E0B',
+  //   border: '#1F2937',
+  //   dim: 'rgba(255,255,255,0.06)',
+  //   card: '#0f1724',
+  // },
+  
+//   colors: { //Blue
+//   background: '#020617',
+//   surface: '#0f172a',
+//   primary: '#06B6D4',
+//   primaryVariant: '#22D3EE',
+//   textPrimary: '#F1F5F9',
+//   textSecondary: '#94A3B8',
+//   success: '#14B8A6',
+//   danger: '#EF4444',
+//   warning: '#F59E0B',
+//   border: '#1E293B',
+//   dim: 'rgba(6,182,212,0.08)',
+//   card: '#0f172a',
+// },
+
+colors: { //Blue2
+  background: '#0a0a1f',
+  surface: '#1a1a3e',
+  primary: '#6366F1',
+  primaryVariant: '#818CF8',
+  textPrimary: '#F8FAFC',
+  textSecondary: '#A5B4FC',
+  success: '#10B981',
+  danger: '#F43F5E',
+  warning: '#F59E0B',
+  border: '#312E81',
+  dim: 'rgba(99,102,241,0.08)',
+  card: '#1a1a3e',
+},
+
+// colors: { //Neon Magenta
+//   background: '#0a0118',
+//   surface: '#1a0b2e',
+//   primary: '#E935C1',
+//   primaryVariant: '#9D4EDD',
+//   textPrimary: '#FCF7FF',
+//   textSecondary: '#C8B6E2',
+//   success: '#06FFA5',
+//   danger: '#FF006E',
+//   warning: '#FFB800',
+//   border: '#3C096C',
+//   dim: 'rgba(233,53,193,0.1)',
+//   card: '#1a0b2e',
+// },
+
+//   colors: { // Green Accent
+//   background: '#0a0e14',
+//   surface: '#141b24',
+//   primary: '#10B981',
+//   primaryVariant: '#34D399',
+//   textPrimary: '#F0F4F8',
+//   textSecondary: '#94A3B8',
+//   success: '#22C55E',
+//   danger: '#F43F5E',
+//   warning: '#FBBF24',
+//   border: '#1E293B',
+//   dim: 'rgba(255,255,255,0.05)',
+//   card: '#141b24',
+// },
+  spacing: {
+    xs: 4,
+    sm: 8,
+    md: 16,
+    lg: 24,
+    xl: 32,
+    xxl:36,
+  },
+  borderRadius: {
+    sm: 8,
+    md: 12,
+    lg: 16,
+    xl: 24,
+  },
+  typography: {
+    h1: {
+      fontSize: 32,
+      fontWeight: '700' as const,
+    },
+    h2: {
+      fontSize: 24,
+      fontWeight: '700' as const,
+    },
+    h3: {
+      fontSize: 20,
+      fontWeight: '600' as const,
+    },
+    body: {
+      fontSize: 16,
+      fontWeight: '400' as const,
+    },
+    caption: {
+      fontSize: 14,
+      fontWeight: '400' as const,
+    },
+    small: {
+      fontSize: 12,
+      fontWeight: '400' as const,
+    },
+  },
+};
+
+export type Theme = typeof theme;

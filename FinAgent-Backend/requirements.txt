@@ -1,0 +1,9 @@
+fastapi
+sqlalchemy
+pydantic
+pydantic_settings
+jose
+passlib
+python-jose[cryptography]
+pydantic[email]
+argon2_cffi
