@@ -2,14 +2,14 @@
 
 <div align="center">
 
-![FinAgent Banner](https://img.shields.io/badge/FinAgent-AI%20Finance-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTAgMThjLTQuNDEgMC04LTMuNTktOC04czMuNTktOCA4LTggOCAzLjU5IDggOC0zLjU5IDgtOCA4em0zLjg4LTExLjcxTDEwIDEzLjE3IDcuNzEgMTAuODggNi4yOSAxMi4yOWwyLjU5IDIuNTlhMS4wMDMgMS4wMDMgMCAwIDAgMS40MiAwbDYuNTktNi41OS0xLjQxLTEuNDF6Ii8+PC9zdmc+)
+
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io/)
 
-**Transform your financial life with intelligent insights powered by AI**
+
+**Transform your financial life with intelligent insights powered by Agentic AI**
 
 [Features](#-features) • [Architecture](#-architecture) • [Getting Started](#-getting-started) • [Documentation](#-documentation)
 
@@ -19,7 +19,7 @@
 
 ## 📱 Overview
 
-**FinAgent** is a cutting-edge personal finance management application that leverages AI to provide intelligent financial insights, automated transaction tracking, and personalized budgeting advice. Built with modern technologies and designed for scalability.
+**FinAgent** is a cutting-edge personal finance management application that leverages Agentic AI to provide intelligent financial insights, automated transaction tracking, and personalized budgeting advice. Built with modern technologies and designed for scalability.
 
 ### ✨ Key Highlights
 
@@ -40,7 +40,7 @@
 - **Expense Analytics** - Visual insights into spending patterns
 - **CSV Import** - Bulk upload bank statements with smart parsing
 
-### 🤖 AI Capabilities
+### 🤖 Agentic AI Capabilities
 - **Conversational Advisor** - Ask questions about your finances in natural language
 - **Smart Insights** - AI-generated recommendations based on spending habits
 - **Predictive Analysis** - Forecast future expenses and suggest optimizations
@@ -89,7 +89,7 @@ Expo App → FastAPI → Redis Queue → Worker
                     WebSocket Push → Expo
 ```
 
-#### 💬 AI Advisor Flow
+#### 💬 Agentic AI Advisor Flow
 ```
 User Query → FastAPI → Create Embedding
                             ↓
@@ -219,7 +219,7 @@ celery -A app.workers.celery_app worker --loglevel=info
 DATABASE_URL=postgresql://user:pass@localhost/finagent
 REDIS_URL=redis://localhost:6379
 JWT_SECRET=your-secret-key
-OPENAI_API_KEY=your-openai-key
+GOOGLE_GEMINI_KEY=your-openai-key
 CHROMA_PERSIST_DIR=./chroma_db
 
 # Frontend (app.config.js)
@@ -345,10 +345,19 @@ WS_URL=ws://localhost:8000/ws
 ## 🎨 UI Screenshots
 
 > Add screenshots of your app here:
+> 
 > - Dashboard view
+> - <img width="386" height="854" alt="image" src="https://github.com/user-attachments/assets/8b1361b0-8a45-4be0-8e3c-0bbdfed35a3e" />
+
 > - Transaction list
+> - <img width="381" height="852" alt="image" src="https://github.com/user-attachments/assets/2d2fa9ce-a628-4962-a718-61e1dc39f19d" />
+
 > - Budget overview
+> - <img width="385" height="848" alt="image" src="https://github.com/user-attachments/assets/b7c4ef06-9581-4392-90b3-ba8469b9db57" />
+
 > - AI Advisor chat
+> - <img width="383" height="843" alt="image" src="https://github.com/user-attachments/assets/cc01decb-ac71-42d1-aac9-7d803c7426f3" />
+
 
 ---
 
@@ -392,13 +401,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **FastAPI** for the blazing-fast backend framework
 - **ChromaDB** for vector storage capabilities
 
----
 
-## 📞 Contact & Support
-
-- **Email**: support@finagent.app
-- **Twitter**: [@finagent](https://twitter.com/finagent)
-- **Discord**: [Join our community](https://discord.gg/finagent)
 
 ---
 
@@ -406,7 +409,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ Star this repo if you find it helpful! ⭐**
 
-Made with ❤️ by the FinAgent Team
+Made with ❤️ by the Ekhakra Team
 
 [⬆ Back to Top](#-finagent---ai-powered-personal-finance-manager)
 
