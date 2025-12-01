@@ -219,7 +219,7 @@ celery -A app.workers.celery_app worker --loglevel=info
 DATABASE_URL=postgresql://user:pass@localhost/finagent
 REDIS_URL=redis://localhost:6379
 JWT_SECRET=your-secret-key
-GOOGLE_GEMINI_KEY=your-openai-key
+GOOGLE_GEMINI_KEY=your-gemini-key
 CHROMA_PERSIST_DIR=./chroma_db
 
 # Frontend (app.config.js)
